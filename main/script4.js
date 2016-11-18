@@ -21,5 +21,9 @@ for (var i=0; i < 64; i++){
     chessBoard.appendChild(fragment);
     document.body.appendChild(chessBoard);
 
+    console.log("//Задание №4")
+
+    console.log("шахматное поле созано")
+
 
 

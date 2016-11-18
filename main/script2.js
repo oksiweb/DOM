@@ -12,9 +12,12 @@ function insertAfter(newElem, refElem) {
   elem2.innerHTML = 'Drink tea (этот елемент создан динамически с помощью insertAfter)';
 
   var list = document.getElementById('list');
+  console.log("//Задание №2")
 
   // вставить elem после первого элемента списка <li>Read book</li>
   insertAfter(elem, list.firstElementChild);
 
   // вставить elem за последним элементом списка <li>Drink tea</li>
   insertAfter(elem2, list.lastElementChild);
+
+  console.log("элементы вставлены на страницу")
